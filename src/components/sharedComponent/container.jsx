@@ -6,11 +6,11 @@ import Header from '../header';
 const Container = ({children}) => {
   return (
     <div className="flex">
-      <div className="w-[20%]">
+      <div className="w-[20%] sm:w-full">
         <SideNav />
       </div>
 
-      <div className="bg-mainBG w-[80%]">
+      <div className="bg-mainBG w-[80%] sm:w-full">
         <Header/>
         {children}
       </div>
