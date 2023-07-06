@@ -20,34 +20,15 @@ import ToastMe from "../../components/toast";
 const Dashboard = () => {
   
   return (
-    
-
-     <div>
-      
-       {/* <Container> */}
-       
-     {/* <Complaint/> */}
+    <div>
+    <Container>
         {/* <Main/> */}
-     {/* </Container> */}
+        <SettingBoard/>
+        
+    </Container>
 
-      <LandingPage/>
-      {/* <Complaint/> */}
-      
-      {/* <Login/> */}
-      {/* <Signup/> */}
-      {/* <SettingBoard/> */}
-      {/* <ToastMe/> */}
-      {/* <Utility/>
-      <Airtime/>
-      <Cable/>
-      <Internet/>
-      <Hotel/> */}
-
-      
-      <Verify/>
-      
-      </div>
-    
+    {/* // <LandingPage/> */}
+    </div>
    
   );
 };

@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
 
-      corePlugins: {
-        // ...
-        transitionProperty: true,
-        translate: true,
+      screens: {
+        md: { min: "415px", max: "800px" },
+
+        sm: { max: "414px" }
       },
+      
 
       backgroundImage:{
         'frame': "url('/src/assets/Frame.png')",

@@ -144,12 +144,15 @@ const Main = () => {
 
   return (
     <div>
-      <div className=" px-[2rem]">
-        <div className="flex justify-between gap-5">
-          <div className="w-[50%] my-[2rem] shadow-xl">
-            <img src={walletCard} alt="walletCard"  />
+      <div className=" px-[2rem] sm:px-3">
+        <div className="flex justify-between gap-5 sm:flex sm:flex-col">
+          
+          <div className="w-[50%] my-[2rem] sm:w-full">
+            <img src={walletCard} alt="walletCard" className="w-[20rem] shadow-xl" />
           </div>
-          <div className="w-[50%] pb-[3rem] p-[1rem] my-[2rem] h-[20rem] rounded-lg bg-white shadow-xl">
+
+          <div className="w-[50%] pb-[3rem] p-[1rem] my-[2rem] h-[20rem] rounded-lg
+           bg-white shadow-xl sm:w-[20rem] sm:p-[.4rem] sm:pb-[3rem]  ">
             <p className="text-lg font-bold">Carbon Stats</p>
             <Doughnut
               data={dataChart}
@@ -159,7 +162,8 @@ const Main = () => {
             />
           </div>
         </div>
-        <div className="my-[4rem] hover:bg-[#d7ecfb]">
+
+        <div className="my-[4rem] hover:bg-[#d7ecfb] sm:w-[20rem]">
           <DataTable className="bg-red-700" columns={columns} data={data} customStyles={customStyles} />
         </div>
       </div>

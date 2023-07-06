@@ -1,6 +1,6 @@
 function SettingBoard() {
   return (
-    <div className="px-[3rem] py-4  sm:px-5 ">
+    <div className="px-[3rem] py-4  sm:px-3 ">
       <div className="bg-[#600aff] px-[4rem] text-white flex justify-between items-center sm:px-5">
         <h1 className="text-[1.5rem]   font-bold  sm:text-base sm:font-medium">Settings</h1>
         <div className="space-x-[8rem] sm:space-x-2 sm:ml-6">
@@ -30,7 +30,7 @@ function SettingBoard() {
                 id="email"
                 name="email"
                 placeholder="Title"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
             <div className="mb-4">
@@ -42,7 +42,7 @@ function SettingBoard() {
                 id="pin"
                 name="pin"
                 placeholder="Last Name"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
 
@@ -56,7 +56,7 @@ function SettingBoard() {
                   id="pin"
                   name="pin"
                   placeholder="Gender"
-                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[10rem]"
+                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[9rem]"
                 />
               </div>
 
@@ -69,7 +69,7 @@ function SettingBoard() {
                   id="pin"
                   name="pin"
                   placeholder="Marital Status"
-                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[10rem]"
+                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[9rem]"
                 />
               </div>
             </div>
@@ -85,7 +85,7 @@ function SettingBoard() {
                 id="email"
                 name="email"
                 placeholder="First Name"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
             <div className="mb-4">
@@ -97,13 +97,13 @@ function SettingBoard() {
                 id="pin"
                 name="pin"
                 placeholder="Maiden Name"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
 
             <div className="flex gap-10">
               <div className="mb-4">
-                <label for="dob" className="block text-[15px] mb-2 font-bold">
+                <label htmlFor="dob" className="block text-[15px] mb-2 font-bold">
                   Date of birth
                 </label>
                 <input
@@ -111,20 +111,21 @@ function SettingBoard() {
                   id="dob"
                   name="dob"
                   placeholder="Date of birth"
-                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[10rem]"
+                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[9rem]"
                 />
               </div>
 
               <div className="mb-4">
-                <label for="pin" className="block text-[15px] mb-2 font-bold">
+                <label htmlFor="pin" className="block text-[15px] mb-2 font-bold">
                   Religion
                 </label>
+                
                 <input
                   type="password"
                   id="pin"
                   name="pin"
                   placeholder="Religion"
-                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[10rem]"
+                  className="w-[12rem] p-2 border border-gray-300 rounded sm:w-[9rem]"
                 />
               </div>
             </div>
@@ -147,7 +148,7 @@ function SettingBoard() {
                 id="phonenumber"
                 name="phonenumber"
                 placeholder="Phone Number"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -162,7 +163,7 @@ function SettingBoard() {
                 id="email"
                 name="email"
                 placeholder="Email"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -178,7 +179,7 @@ function SettingBoard() {
               id="email"
               name="email"
               placeholder="First Name"
-              className="w-[54rem] p-2 border border-gray-300 rounded sm:w-[23rem] sm:p-4"
+              className="w-[54rem] p-2 border border-gray-300 rounded sm:w-[20rem] sm:p-4"
             />
           </div>
 
@@ -193,7 +194,7 @@ function SettingBoard() {
                   id="email"
                   name="email"
                   placeholder="Title"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
 
@@ -206,7 +207,7 @@ function SettingBoard() {
                   id="email"
                   name="email"
                   placeholder="Title"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
             </div>
@@ -221,7 +222,7 @@ function SettingBoard() {
                   id="lga"
                   name="lga"
                   placeholder="L.G.A"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
               <div className="mb-4">
@@ -233,7 +234,7 @@ function SettingBoard() {
                   id="nationality"
                   name="nationality"
                   placeholder="Nationality"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
             </div>
@@ -256,7 +257,7 @@ function SettingBoard() {
                 id="email"
                 name="email"
                 placeholder="Title"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -271,7 +272,7 @@ function SettingBoard() {
                 id="lastname"
                 name="lastname"
                 placeholder="Last Name"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -287,7 +288,7 @@ function SettingBoard() {
               id="address"
               name="address"
               placeholder="Address"
-              className="w-[54rem] p-2 border border-gray-300 rounded sm:w-[23rem] sm:p-4"
+              className="w-[54rem] p-2 border border-gray-300 rounded sm:w-[20rem] sm:p-4"
             />
           </div>
 
@@ -302,7 +303,7 @@ function SettingBoard() {
                   id="relationship"
                   name="relationship"
                   placeholder="Relationship"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
             </div>
@@ -317,7 +318,7 @@ function SettingBoard() {
                   id="email"
                   name="email"
                   placeholder="Email"
-                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                  className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
                 />
               </div>
             </div>
@@ -340,7 +341,7 @@ function SettingBoard() {
                 id="occupation"
                 name="occupation"
                 placeholder="Occupation"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -355,7 +356,7 @@ function SettingBoard() {
                 id="employer"
                 name="employer"
                 placeholder="Employer"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -371,7 +372,7 @@ function SettingBoard() {
               id="employeradress"
               name="employeradress"
               placeholder="Employer`s Adress"
-              className="w-[54rem] p-4 border border-gray-300 rounded sm:w-[23rem] sm:p-6"
+              className="w-[54rem] p-4 border border-gray-300 rounded sm:w-[20rem] sm:p-6"
             />
           </div>
         </div>
@@ -384,7 +385,7 @@ function SettingBoard() {
         <div className="flex gap-5 sm:flex-col">
           <div>
             <div className="mb-4">
-              <label for="bvn" className="block text-[15px] mb-2 font-bold">
+              <label htmlfor="bvn" className="block text-[15px] mb-2 font-bold">
                 BVN
               </label>
               <input
@@ -392,7 +393,7 @@ function SettingBoard() {
                 id="bvn"
                 name="bvn"
                 placeholder="BVN"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
           </div>
@@ -407,7 +408,7 @@ function SettingBoard() {
                 id="ldnumber"
                 name="ldnumberr"
                 placeholder="ldnumber"
-                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[23rem]"
+                className="w-[26.5rem] p-2 border border-gray-300 rounded sm:w-[20rem]"
               />
             </div>
             <button className="bg-[#2b007a] rounded-lg text-white p-2 text-sm px-4 ml-[21.5rem] sm:ml-[9rem]">
